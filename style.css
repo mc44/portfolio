@@ -1,0 +1,182 @@
+
+
+navbar{
+    background-color: white;
+}
+
+.nav-link{
+    color:black;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+.main{
+    background: url(/imgs/marc_profpic-removebg.png);
+    background-size:cover;
+    background-position: top;
+    width: 60%;
+    height: 100vh;
+}
+
+.main h3{
+    font-weight: 300;
+}
+
+.main h5{
+    font-size: 4.4rem;
+    font-weight: 700;
+    border-bottom: 3px solid blueviolet;
+    width: 45%;
+}
+
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.about img{
+    box-shadow: 25px 50px 84px -15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 25px 50px 84px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 25px 50px 84px -15px rgba(0,0,0,0.75);
+}
+
+.about h1{
+    font-size: 3rem;
+    font-weight:900;
+}
+
+.violet{
+    background-color: blueviolet;
+}
+
+.progress{
+    background-color: rgb(223,219,219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position:relative;
+    display: flex;
+    height: 35px;
+    width: 90%;
+}
+
+.progress p{
+    color: white;
+    padding:8px;
+}
+
+.pro-value1{
+    animation: scrollprog 3s normal forwards;
+    border-radius: 50px;
+    background-color:blueviolet;
+    height:35px;
+    width: 0;
+}
+
+
+
+@keyframes scrollprog{
+    0%{
+        width:0px;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+.pro-value2{
+    animation: scrollprog2 3s normal forwards;
+    border-radius: 50px;
+    background-color:blueviolet;
+    height:35px;
+    width: 0;
+}
+
+
+
+@keyframes scrollprog2{
+    0%{
+        width:0px;
+    }
+    100%{
+        width:75%;
+    }
+}
+
+.pro-value3{
+    animation: scrollprog3 3s normal forwards;
+    border-radius: 50px;
+    background-color:blueviolet;
+    height:35px;
+    width: 0;
+}
+
+
+
+@keyframes scrollprog3{
+    0%{
+        width:0px;
+    }
+    100%{
+        width:80%;
+    }
+}
+
+.projects h1{
+    font-size: 3rem;
+    font-weight:900;
+}
+
+.card {
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    border: blueviolet;
+    box-shadow: 25px 50px 84px -15px blueviolet;  
+    -webkit-box-shadow: 25px 50px 84px -15px blueviolet;
+    -moz-box-shadow: 25px 50px 84px -15px blueviolet;
+    transform: translateY(-10px);
+}
+
+.card p{
+    color:gray;
+}
+
+.image{
+    width:80%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card h4{
+    border-bottom: 3px solid blueviolet;
+    width:60%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25em;
+    font-size: 1em;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
